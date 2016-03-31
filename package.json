@@ -1,0 +1,28 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "gulp child_process",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://looading@github.com/looading/child-process.git"
+  },
+  "keywords": [
+    "node",
+    "child_process"
+  ],
+  "author": "ctyloading",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/looading/child-process/issues"
+  },
+  "homepage": "https://github.com/looading/child-process#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1"
+  }
+}
