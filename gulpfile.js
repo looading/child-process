@@ -34,7 +34,9 @@ gulp.task('proxy', function() {
 })
 
 gulp.task('watch', function() {
-	gulp.watch('*.js').on('change', restart)
+	gulp.watch('*.js').on('change', function(){
+		restart(reload)
+	})
 })
 
 gulp.task('default', ['createChild','proxy'])

@@ -28,9 +28,10 @@ function close() {
 	}
 }
 
-function restart () {
+function restart (cb) {
 	close()
 	init({})
+	setTimeout(cb, 100);
 }
 module.exports = {
 	init 		: init,

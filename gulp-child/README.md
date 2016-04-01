@@ -38,4 +38,4 @@ var obj = {
 }
 ```
 ## [Function] gulpChild.close()  关闭子进程
-## [Function] gulpChild.restrt() 重启子进程
+## [Function] gulpChild.restrt(callback) 重启子进程
